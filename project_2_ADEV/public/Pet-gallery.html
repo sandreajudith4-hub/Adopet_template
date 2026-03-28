@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ADOPET @ TP</title>
+    <script src="./js/adoption.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class ="gallery-pg" onload="loadAnimalData()">
+
+<header class = "navibar">
+    <h1 class = "title">Pets Galore</h1>
+    <nav class="otherpgs">
+        <li><a href="Pet-gallery.html"><b>Gallery</b></a></li>  
+        <li><a href="User-login.html"><b>Login/signout</b></a></li> 
+        <li><a href="developer.html"><b>developer only</b></a></li>
+    </nav>
+</header>    
+
+
+    <br>
+    <h2 class = "hook-line"><i>~ You can not buy love... but you can adopt us</i></h2>
+    <br>
+
+    <hr>
+
+    <div id="dynamicAnimalsDataList">
+        <p>love at first site?</p>
+    </div>
+
+    <div id="petPopup" class="popup-bgd">
+        <div class="Popup-card">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div id="PopupBody"></div>
+            <br>
+            <button id="meetButton" class="meet-btn">Meet this Pet!</button>
+        </div>
+    </div>
+
+    <br><br>
+  
+<footer>
+  <span>ADOPET @ Temasek Polytechnic</span>
+  <span class="divider">|</span>
+  <span>Contact: 1234 5678</span>
+  <span class="divider">|</span>
+  <span>Follow TP_ADOPET on Instagram</span>
+</footer>
+    
+</body>
+</html>

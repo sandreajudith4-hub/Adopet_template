@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Book to Meet Pet</title>
+    <script src="./js/adoption.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class ="meet-pg" onload="loadBookingPageData()">
+
+    <div class="pet-form">
+
+        <h2>Meet the Pet</h2>
+
+        <p class="side-note">
+            Date should be at least 3 days after the date you are booking.
+        </p>
+
+        <p id="petNameLabel"></p>
+
+        <form id="bookingForm" onsubmit="return saveBooking()">
+
+            <input type="hidden" id="petId" name="animal_id" value="">
+
+            <label for="meetingDate">Pick Meeting Date:</label><br>
+            <input type="date" id="meetingDate" name="date" required>
+            
+            <br><br>
+
+            <div class = "btn-line">
+            <button type="submit" class="submitbtn">Confirm</button>
+            <button type="button" class="cancelbtn" onclick="window.location.href='Pet-gallery.html'">Gallery</button>
+            </div>
+
+
+           
+        <p class="side-note">
+            You will receive a notification on the approval and time slot
+            to meet the pet after 2 to 4 working days.
+        </p>
+
+    </div>
+
+</body>
+</html>

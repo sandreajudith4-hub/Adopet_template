@@ -1,0 +1,453 @@
+.popup-bgd {
+    display: none; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.737); 
+    z-index: 1000;
+}
+
+.Popup-card {
+    background: white; 
+    width: 50%; 
+    margin: 10% auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center;
+}
+
+
+.close-btn {
+    float: right; 
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.meet-btn {
+    padding: 10px; 
+    background: rgba(245, 136, 20, 0.906); 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.meet-btn:hover {
+    background: #d66f01; 
+}
+
+.navibar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffb347;
+    padding: 10px 30px;
+}
+
+.title {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.otherpgs {
+    display: flex; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; 
+}
+
+.otherpgs li {
+    float: left;
+}
+
+.otherpgs a {
+    display: block;
+    color: white;
+    font-style: poppins;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.otherpgs li a:hover {
+    background-color: #5b5b5baf;
+}
+
+.hook-line {
+    color: #3f3f3f;
+    margin: 20px 0 30px;
+    text-align: center;
+}
+
+#dynamicAnimalsDataList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px; 
+    padding: 20px;
+    background-color: #fff6f8; 
+}
+
+.prof-card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    border-radius: 10px; 
+    overflow: hidden;     
+}
+
+.prof-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+.container {
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.pet-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0; 
+}
+
+.view-btn {
+    background-color: #ffa51ffd; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;  
+    background-color: #eb8f20;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+footer span {
+    margin: 0 8px;
+}
+
+
+
+
+.login-body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("../images/login-page.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo-pic {
+    width: 250px;       
+    height: auto;         
+    margin: 0 auto 10px auto;
+    display: block;      
+    border-radius: 50%;  
+}
+
+.meet-pg h2 {
+    color: #ff8c2b;
+    margin: 10px 0 20px 0;
+    font-size: 35px;
+}
+
+label {
+    display: block;
+    text-align: left;   
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;         
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #2b2b2b;
+}
+.gallery-pg {
+    background-color: #ffeaccfa;
+}
+
+
+.gallery-pg button {
+    padding: 12px;
+    background-color: #ff9f46;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.gallery-pg button:hover {
+    background-color: #fa7100;
+}
+
+
+.login-body button{
+    padding: 12px;
+    background-color: #ff9f46;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login-body button:hover{
+    background-color: #fa7100;
+}
+
+.meet-pg .submitbtn {
+    padding: 12px;
+    background-color: #ff9f46;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.meet-pg button:hover{
+    background-color: #fa7100;
+}
+
+
+.meet-pg .cancelbtn {
+    padding: 12px;
+    background-color: #a7a7a7; 
+    color: #f5f2f2;
+    border: none;
+    border-radius: 20px; 
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.meet-pg .cancelbtn:hover {
+    background-color: #717171; 
+}
+
+.meet-pg .btn-line {
+    display: flex;           
+    justify-content: center; 
+    gap: 15px;               
+    width: 100%;             
+    margin-top: 10px; 
+}
+
+.meet-pg {
+    background-color: #ffe7c3;
+}
+
+.pet-form {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 30px;
+    margin: 40px auto;   
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.side-note {
+    text-align: center;   
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.deve-pg {
+    background-color: #ffeaccfa;
+}
+.deve-pg h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+.deve-page {
+    max-width: 1000px;
+    margin: 0 auto;          
+    padding: 30px 20px;
+}
+
+
+.deve-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.admins-table {
+    width: 90% ; 
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 auto;
+}
+
+.admins-table th {
+    background-color: #cacaca;
+    padding: 12px;
+    text-align: center;
+}
+
+.admins-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+.top-buttons {
+    display: flex;
+    justify-content: center;  
+    gap: 25px;
+    margin: 20px 0 40px;
+}
+
+.top-buttons button {
+    background-color: #ffa51ffd; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+
+.editdelete-buttons {
+    display: flex ;
+    flex-direction: row ; 
+    justify-content: center;
+    gap: 25px;
+}
+
+.editdelete-buttons button {
+    background-color: #ffa51ffd; 
+    color: white;
+    width: 80px ; 
+    padding: 6px 0 ;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 ;
+    border-radius: 10px;
+}
+
+.add-ani button {
+    background-color: #ffa51ffd; 
+    color: white;
+    width: 100px ; 
+    height: 50px;
+    padding: 6px  ;
+    font-size: 13px;
+    font-weight: bold;
+    margin: auto ;
+    border-radius: 12px;
+    
+}
+.add-ani {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;     
+    margin: 0;
+    background-color: #ffe4c2;
+}
+
+.new-anicard {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    border-radius: 10px; 
+    width: 500px;    
+    overflow: hidden;
+}
+
+.new-anicard label {
+    display: block;      
+    width: 80%;         
+    margin: 0 auto;      
+    text-align: left;    
+    font-weight: bold;
+}
+
+
+.new-anicard input {
+    width: 80%;             
+    padding: 10px; 
+    margin: auto;          
+    border-radius: 10px;
+    box-sizing: border-box;  
+    display: block;      
+     
+}
+.up-ani {
+    background-color: #ffe5b5;
+}
+.up-ani button {
+    background-color: #ffa51ffd; 
+    color: white;
+    width: 100px ; 
+    height: 50px;
+    padding: 5px  ;
+    font-size: 13px;
+    font-weight: bold;
+    margin: auto ;
+    border-radius: 12px;
+    
+
+}
+.up-butgrp{
+    display: flex;           
+    justify-content: center; 
+    gap: 15px;               
+    width: 100%;             
+    margin-top: 10px;       
+}

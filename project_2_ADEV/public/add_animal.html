@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Animal</title>
+    <script src="./js/adoption.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="add-ani">
+    <div class="new-anicard">
+    <h2>Insert New Animal</h2>
+    <form id="insertForm" onsubmit="addAnimalData(); return false">
+        
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" maxlength="100" required><br>
+
+        <label for="species_id">Species ID (1=Dog, 2=Cat, 3=Bird):</label><br>
+        <input type="number" id="species_id" name="species_id" required><br>
+
+        <label for="breed">Breed:</label><br>
+        <input type="text" id="breed" name="breed" maxlength="100"><br>
+
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="age"><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="text" id="gender" name="gender" maxlength="10"><br>
+
+        <label for="status">Status:</label><br>
+        <input type="text" id="status" name="status" maxlength="20"><br>
+
+        <label for="image_url">Image URL:</label><br>
+        <input type="text" id="image_url" name="image_url" maxlength="255"><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" maxlength="255"></textarea><br><br>
+
+        <button type="submit">Add Animal</button>
+        <button type="button" onclick="window.location.href='Pet-gallery.html'">Gallery</button>
+
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update details</title>
+    <script src="./js/adoption.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="up-ani" onload = " AnimalDetailsforEdit()">
+    <form id="updateAnimalForm" method = "post" class="pet-form" onsubmit="updateAnimalDetails(); return false">
+        <h2>Update Animal</h2>
+
+        <label for="animal_id">Animal ID:</label>
+        <input type="number" id="animal_id" name="animal_id" readonly>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="breed">Breed:</label>
+        <input type="text" id="breed" name="breed">
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+
+        <label for="age">Gender:</label>
+        <input type="text" id="gender" name="gender">
+
+        <label for="age">Status:</label>
+        <input type="text" id="status" name="status">
+
+        <label for="image_url">Image URL:</label>
+        <input type="text" id="image_url" name="image_url">
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4"></textarea>
+        <br>
+
+        <div class="up-butgrp" >  
+        <button type="submit" class="submitbtn">Update Animal</button>
+        <button type="button" onclick="window.location.href='Pet-gallery.html'">Gallery</button>
+        </div>
+
+    </form>
+</body>
+</html>
